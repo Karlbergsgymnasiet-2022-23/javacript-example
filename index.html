@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sv" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>js example</title>
+  </head>
+  <style media="screen">
+    body{
+      height: 200vh;
+    }
+    .square{
+      height: 100px;
+      width: 100px;
+    }
+    #green{
+      background-color: green;
+    }
+    #blue{
+      background-color: blue;
+    }
+    #red{
+      background-color: red;
+    }
+  </style>
+  <body onscroll="userScrolled()" onload="setup()">
+    <button type="button" name="button" onclick="buttonPressed()">
+      <p>en knapp</p>
+    </button>
+
+    <div class="square" id="green">
+
+    </div>
+    <div class="square" id="blue">
+
+    </div>
+    <div class="square" id="red" onclick="buttonPressed()">
+
+    </div>
+
+
+
+    <script type="text/javascript">
+
+      //a = 5;
+      //var b = 4;
+      let c = 3;
+      const d = 2;
+
+      console.log("hej " + 32 + " vad fint väder vi har");
+      console.log(23);
+      console.log(c);
+      //alert("HEJ PÅ DIG");
+      console.log(1 + "1" * 2);
+
+      if (c === "3") {
+        console.log("c är tre");
+      } else {
+        console.log("c är inte tre");
+      }
+/*
+      for (var i = 0; i < array.length; i++) {
+      }
+*/
+
+
+    </script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
