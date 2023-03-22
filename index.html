@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>js example</title>
   </head>
+  <!--
   <style media="screen">
     body{
       height: 200vh;
@@ -21,10 +22,35 @@
     #red{
       background-color: red;
     }
-  </style>
-  <body onscroll="userScrolled()" onload="setup()">
-    <button type="button" name="button" onclick="buttonPressed()">
+  </style>--->
+  <body>
+    <form action="index.html" method="get">
+      <input type="password" name="name" placeholder="Ditt namn">
+      <div>
+        <input type="radio" name="gender" value="blåhaj" id="haj">
+        <label for="haj">Blåhaj</label> <br>
+        <input type="radio" name="gender" value="sten" id="sten">
+        <label for="sten">Sten</label> <br>
+      </div>
+      <div>
+        <input type="checkbox" name="pop" value="pop" id="pop">
+        <label for="pop">Pop</label> <br>
+        <input type="checkbox" name="punk" value="punk" id="punk">
+        <label for="punk">Punk</label> <br>
+        <input type="checkbox" name="gospel" value="gospel" id="gospel">
+        <label for="gospel">Gospel</label> <br>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+
+    <!--
+    <button type="button" name="button" onclick="getSquare()">
       <p>en knapp</p>
+    </button>
+
+    <button type="button" name="button" onclick="setSquareText()">
+      <p>En till knapp</p>
     </button>
 
     <div class="square" id="green">
@@ -65,5 +91,6 @@
 
     </script>
     <script type="text/javascript" src="script.js"></script>
+    --->
   </body>
 </html>
