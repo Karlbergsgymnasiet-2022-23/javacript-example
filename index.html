@@ -25,25 +25,32 @@
   </style>--->
   <body>
     <form action="index.html" method="get">
-      <input type="password" name="name" placeholder="Ditt namn">
+      <input type="password" name="Name" placeholder="Ditt namn">
       <div>
-        <input type="radio" name="gender" value="blåhaj" id="haj">
+        <input type="radio" name="Gender" value="blåhaj" id="haj">
         <label for="haj">Blåhaj</label> <br>
-        <input type="radio" name="gender" value="sten" id="sten">
+        <input type="radio" name="Gender" value="sten" id="sten">
         <label for="sten">Sten</label> <br>
       </div>
       <div>
-        <input type="checkbox" name="pop" value="pop" id="pop">
+        <input type="checkbox" name="Music" value="pop" id="pop">
         <label for="pop">Pop</label> <br>
-        <input type="checkbox" name="punk" value="punk" id="punk">
+        <input type="checkbox" name="Music" value="punk" id="punk">
         <label for="punk">Punk</label> <br>
-        <input type="checkbox" name="gospel" value="gospel" id="gospel">
+        <input type="checkbox" name="Music" value="gospel" id="gospel">
         <label for="gospel">Gospel</label> <br>
       </div>
       <button type="submit">Submit</button>
     </form>
 
 
+  <div>
+        <p>Jag heter <span id="inputName"></span> </p>
+    <p>Jag är <span id="inputGender"></span> </p>
+    <p>Jag gillar <span id="inputMusic" ></span> </p>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
     <!--
     <button type="button" name="button" onclick="getSquare()">
       <p>en knapp</p>
